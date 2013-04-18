@@ -26,7 +26,6 @@
 //         change this class name to a unique name, e.g. "User1_Custom_Keys"
 class DangKeys extends Plugin {
 
-	private $link;
 	private $host;
 
 	// You can change the description of this plugin here
@@ -37,7 +36,6 @@ class DangKeys extends Plugin {
 	}
 
 	function init($host) {
-		$this->link = $host->get_link();
 		$this->host = $host;
 
 		$host->add_hook($host::HOOK_HOTKEY_MAP, $this);
