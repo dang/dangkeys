@@ -74,6 +74,10 @@ class DangKeys extends Plugin {
 		return $hotkeys;
 
 	}
+
+	function api_version() {
+		return 2;
+	}
 }
 
 // vim:ft=php
