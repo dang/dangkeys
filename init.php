@@ -71,6 +71,7 @@ class DangKeys extends Plugin {
 		$hotkeys["r"] = "prev_article_noscroll";
 		$hotkeys["f"] = "article_scroll_up";
 		$hotkeys["s"] = "article_scroll_down";
+		$hotkeys["m u"] = "toggle_unread";
 		return $hotkeys;
 
 	}
